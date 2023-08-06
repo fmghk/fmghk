@@ -7,10 +7,9 @@ body{background-color: #8acbe9ee;}
 .cabecario {background-color: beige;}
 .semaforo{width: 10%;}
 .fotos{width: 15%;}
-@media screen and {max: width 394px;}
-@media screen and {min: width 394px; }
- @media screen and{min: width 720px;}
-        
-    
+ @media screen and (max-width: 394px)
+@media screen and  (min-width: 394px) and (max-width: 720px)
+@media screen and ( min-width:720px)    
+ 
 
     
