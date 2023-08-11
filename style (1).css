@@ -8,7 +8,10 @@ body{background-color: #8acbe9ee;}
 .semaforo{width: 10%;}
 .fotos{width: 15%;}
 .todos{
-    display: flex;
+    display: grid ;
+    grid-template-columns: 33% 33% 33%;
+   
+
 }
  @media screen and (max-width: 394px)
     
