@@ -2,11 +2,11 @@ header{background-color: rgb(226, 235, 242);}
 img{display:inline-block; margin: 0% ; padding: 10px;}
 body{background-color: #8acbe9ee;} 
 .mmmmmmm{width: 15%}
-.fotos{width: 15%;}
-.fotos{width: 15%;}
+.fotos{width: 30%;}
+
 .cabecario {background-color: beige;}
 .semaforo{width: 10%;}
-.fotos{width: 15%;}
+
 .todos{
     display: grid ;
     grid-template-columns: 33% 33% 33%;
