@@ -16,7 +16,11 @@ body{background-color: #8acbe9ee;}
 .ESTUDANTE{
     text-align: center;
 }
- @media screen and (max-width: 394px)
+ @media screen and (max-width: 480px){
+    .todos{
+        display: block;
+    }
+ }
     
  
 
