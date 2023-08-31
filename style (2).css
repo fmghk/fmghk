@@ -4,4 +4,8 @@ img{width: 30%;}
 .teclado{background-color: rgb(183, 245, 245); display: grid; gap: 10px; grid-template-columns: repeat(3,1fr);padding: 10px;}
 .tecla{color: #d17373;background-color: antiquewhite;}
 .tecla.ativa,
-.tecla:active{color: #a6e4be;background-color: #a6e4be; outline: none;}
+.tecla:active{color: #a6e4be;background-color: #d9ec6a; outline: none;}
+.tecla.focus,
+.tecla:focus{outline: none; bosc: shadow 1px 1px 10px#c3e788;}
+.tecla.active:focus,
+.tecla.active:focus{box-shadow: 3px 3px #d17373;}
