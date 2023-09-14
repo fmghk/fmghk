@@ -1,7 +1,7 @@
 header{background-color: rgb(253, 253, 218);}
 body{background-color: #cef0acee;} 
 img{width: 30%;}
-.teclado{background-color: rgb(192, 209, 214); display: grid; gap: 10px; grid-template-columns: repeat(3,1fr);padding: 10px;}
+.teclado{background-color: rgb(182, 230, 245); display: grid; gap: 10px; grid-template-columns: repeat(3,1fr);padding: 10px;}
 .tecla{color: #d17373;background-color: antiquewhite;}
 .tecla.ativa,
 .tecla:active{color: #a6e4be;background-color: #d9ec6a; outline: none;}
