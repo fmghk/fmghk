@@ -6,6 +6,6 @@ img{width: 30%;}
 .tecla.ativa,
 .tecla:active{color: #a6e4be;background-color: #d9ec6a; outline: none;}
 .tecla.focus,
-.tecla:focus{outline: none; bosc: shadow 1px 1px 10px#b6eb61;}
+.tecla:focus{outline: none; bosc: shadow 1px 1px 10px#f56e4c;}
 .tecla.active:focus,
 .tecla.active:focus{box-shadow: 3px 3px #9ea3ee;}
