@@ -9,7 +9,7 @@ const classe= lista [Contador].classList[1];
 console.log(classe);
 
 
-while(Contador < 9){
+while(Contador < lista.length){
 
     lista[Contador].onclick=manu;
     const classe= lista [Contador].classList[1];
