@@ -5,15 +5,18 @@ const lista = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 
-const classe= lista [5].classList[1];
+const classe= lista [Contador].classList[1];
 console.log(classe);
 
 
 while(Contador < 9){
 
     lista[Contador].onclick=manu;
+    const classe= lista [Contador].classList[1];
+    console.log(classe);
     Contador = Contador + 1;
     console.log (Contador);
+    
 }
 
 
