@@ -8,10 +8,11 @@ let Contador = 0;
 const classe= lista[Contador].classList[1];
 
 while(Contador < lista.length){
-    const classe= lista[Contador].classList[1];
-    console.log(classe);
+    const tecla= lista[Contador]
+    const classe= tecla[Contador].classList[1];
+    //console.log(classe);
     const idAudio = `#som_${classe}`;
-    console.log(idAudio);
+    //console.log(idAudio);
 
     lista[Contador].onclick= function(){ 
         manu(idAudio);
@@ -19,7 +20,12 @@ while(Contador < lista.length){
     
     
     Contador = Contador + 1;
-    console.log (Contador);
-    
-
+    //console.log (Contador);
+    tecla.onkeydown = function (){
+        tecla.classList.add('ativa');
+    }
+    tecla.onkeyup = function() {
+        tecla.classList.remove('ativa');
+    }
+   
 }
