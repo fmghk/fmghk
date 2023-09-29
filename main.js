@@ -5,7 +5,7 @@ const lista = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 
-const classe= lista [Contador].classList[1];
+const classe= lista[Contador].classList[1];
 console.log(classe);
 
 
@@ -15,7 +15,7 @@ while(Contador < lista.length){
         manu(idAudio);
     }
     
-    const classe= lista [Contador].classList[1];
+    const classe= lista[Contador].classList[1];
     console.log(classe);
     const idAudio = `#som_${classe}`;
     console.log(idAudio);
