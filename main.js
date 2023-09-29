@@ -12,7 +12,7 @@ while(Contador < lista.length){
     console.log(classe);
     const idAudio = `#som_${classe}`;
     console.log(idAudio);
-    
+
     lista[Contador].onclick= function(){ 
         manu(idAudio);
     }
@@ -23,9 +23,3 @@ while(Contador < lista.length){
     
 
 }
-
-
-
-
-document.querySelector('.tecla_pom').onclick=manu
-
