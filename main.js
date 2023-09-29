@@ -21,10 +21,10 @@ while(Contador < lista.length){
     
     Contador = Contador + 1;
     //console.log (Contador);
-    tecla.onkeydown = function (){
+    tecla.onkeydown = function (evento){
         tecla.classList.add('ativa');
-    }
-    tecla.onkeyup = function() {
+        console.log(evento)
+    tecla.onkeyup = function () {
         tecla.classList.remove('ativa');
     }
    
