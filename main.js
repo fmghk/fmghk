@@ -23,7 +23,7 @@ while(Contador < lista.length){
     //console.log (Contador);
     tecla.onkeydown = function (evento){
         tecla.classList.add('ativa');
-        console.log(evento.cod === 'Space'|| evento.code === 'Enter'); 
+        console.log(evento.code === 'Space'|| evento.code === 'Enter'); 
     
 } 
 
