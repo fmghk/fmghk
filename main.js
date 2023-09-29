@@ -12,18 +12,19 @@ console.log(classe);
 while(Contador < lista.length){
 
     lista[Contador].onclick= function(){ 
-        manu('#som_tecla_toim');
+        manu(idAudio);
     }
     
     const classe= lista [Contador].classList[1];
     console.log(classe);
-   
+    const idAudio = `#som_${classe}`;
+    console.log(idAudio);
     Contador = Contador + 1;
     console.log (Contador);
     
-const idAudio = `#som_${classe}`;
-console.log(idAudio);
+
 }
+
 
 
 
