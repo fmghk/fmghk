@@ -18,9 +18,9 @@ for ( let contador = 0; contador < ListaDeTecla. lenght; contador++){
         manu(idAudio);
     }
     
-    
- 
-    console.log (Contador);
+     console.log (Contador);
+}
+
     tecla.onkeydown = function (evento){
 if (evento.code === 'Space'|| evento.code === 'Enter')  {
         tecla.classList.add('ativa');
