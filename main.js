@@ -7,7 +7,7 @@ let Contador = 0;
 
 const classe= lista[Contador].classList[1];
 
-for ( let contador = 0; contador < listaDeTecla.lenght; contador++) {
+for (let contador = 0; contador < listaDeTecla.lenght; contador++) {
     const tecla= listaDeTecla[Contador]
     const classe= lista[Contador].classList[1];
     //console.log(classe);
