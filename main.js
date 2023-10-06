@@ -3,9 +3,7 @@ function manu (idAudio1) {
 }
 const lista = document.querySelectorAll('.tecla');
 
-let Contador = 0;
 
-const classe= lista[Contador].classList[1];
 
 for (let contador = 0; contador < listaDeTecla.lenght; contador++) {
     const tecla= listaDeTecla[Contador]
