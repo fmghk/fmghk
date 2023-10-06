@@ -33,4 +33,4 @@ if (evento.code === 'Space'|| evento.code === 'Enter')  {
         tecla.classList.remove('ativa');
     }
    
-}
+
