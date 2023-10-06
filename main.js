@@ -10,9 +10,7 @@ const classe= lista[Contador].classList[1];
 for (let contador = 0; contador < listaDeTecla.lenght; contador++) {
     const tecla= listaDeTecla[Contador]
     const classe= lista[Contador].classList[1];
-    //console.log(classe);
-    const idAudio = `#som_${classe}`;
-    //console.log(idAudio);
+    const idAudio = '#som_${classe}'; //template string
 
     lista[Contador].onclick= function(){ 
         manu(idAudio); }
