@@ -7,7 +7,7 @@ let Contador = 0;
 
 const classe= lista[Contador].classList[1];
 
-while(Contador < lista.length){
+for (let contador = 0;){
     const tecla= lista[Contador]
     const classe= lista[Contador].classList[1];
     //console.log(classe);
