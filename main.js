@@ -16,9 +16,9 @@ for ( let contador = 0; contador < ListaDeTecla.lenght; contador++){
 
     lista[Contador].onclick= function(){ 
         manu(idAudio); }
-        
+
     }
-    
+    {
      console.log (Contador);
 }
 
