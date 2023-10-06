@@ -7,7 +7,7 @@ let Contador = 0;
 
 const classe= lista[Contador].classList[1];
 
-for ( contador = 0;){
+for ( let contador = 0; contador < ListaDeTecla. lenght; contador++){
     const tecla= lista[Contador]
     const classe= lista[Contador].classList[1];
     //console.log(classe);
@@ -19,8 +19,8 @@ for ( contador = 0;){
     }
     
     
-    Contador = Contador + 1;
-    //console.log (Contador);
+ 
+    console.log (Contador);
     tecla.onkeydown = function (evento){
 if (evento.code === 'Space'|| evento.code === 'Enter')  {
         tecla.classList.add('ativa');
