@@ -1,7 +1,7 @@
 function manu(idAudio1) {
     document.querySelector(idAudio1).play();
 }
-const lista = document.querySelectorAll('.tecla');
+const listaDeTecla = document.querySelectorAll('.tecla');
 
 
 
